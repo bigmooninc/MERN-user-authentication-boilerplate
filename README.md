@@ -12,5 +12,5 @@ Once in MongoDB Atlas, generate a new cluster. Once the cluster is built, click 
 
 Add your jwtSecret in the same file.
 
-## Add Client
+## Add Client Files
 Run `npx create-react-app client` to add client files to the application. This will allow you to run `npm run dev` to run the client server and database server at the same time using concurrently.
