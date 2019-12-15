@@ -11,3 +11,6 @@ To sign in or learn more click [here](https://www.mongodb.com/cloud/atlas).
 Once in MongoDB Atlas, generate a new cluster. Once the cluster is built, click the connect button and choose Connect your Application and copy the string and place it in the default.json file in the config directory for your mongoUri.
 
 Add your jwtSecret in the same file.
+
+## Add Client
+Run `npx create-react-app client` to add client files to the application. This will allow you to run `npm run dev` to run the client server and database server at the same time using concurrently.
